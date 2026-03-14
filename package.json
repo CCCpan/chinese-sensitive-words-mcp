@@ -1,0 +1,66 @@
+{
+  "name": "chinese-sensitive-words-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for Chinese sensitive/prohibited word detection. Supports Xiaohongshu, Douyin, Kuaishou, Bilibili. 中文敏感词违禁词检测 MCP 服务，支持小红书、抖音、快手、B站。",
+  "type": "module",
+  "license": "MIT",
+  "author": "pancheng",
+  "homepage": "https://github.com/pancheng/chinese-sensitive-words-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pancheng/chinese-sensitive-words-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pancheng/chinese-sensitive-words-mcp/issues"
+  },
+  "bin": {
+    "chinese-sensitive-words-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README_EN.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "sensitive-words",
+    "prohibited-words",
+    "content-moderation",
+    "chinese",
+    "xiaohongshu",
+    "douyin",
+    "bilibili",
+    "kuaishou",
+    "wordscheck",
+    "text-check",
+    "social-media",
+    "compliance",
+    "敏感词",
+    "违禁词",
+    "内容审核",
+    "小红书",
+    "抖音"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

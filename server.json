@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pancheng/chinese-sensitive-words-mcp",
+  "title": "Chinese Sensitive Words MCP Server",
+  "description": "Detect sensitive/prohibited words in Chinese text for social media platforms (Xiaohongshu, Douyin, Kuaishou, Bilibili). Features massive daily-updated dictionary, risk level classification, safe replacement suggestions, homophone detection, and NER filtering.",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "chinese-sensitive-words-mcp",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "transport": "stdio"
+    }
+  ]
+}
