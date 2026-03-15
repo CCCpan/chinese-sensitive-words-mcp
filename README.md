@@ -215,7 +215,10 @@ Suggested replacements: 很好用, 超好用, 非常好用, 特别好用
 ## 📬 联系我们
 
 - 微信：chenganp
+- 邮箱：345048305@qq.com
 - 网站：https://www.chenganp.top
+
+> 💡 需要定制开发自己的 MCP Server？查看我们的 [MCP 定制开发服务](https://github.com/CCCpan/mcp-custom-dev)
 
 ## 📄 许可证
 
