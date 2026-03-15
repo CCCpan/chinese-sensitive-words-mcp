@@ -1,6 +1,6 @@
 # Chinese Sensitive Words MCP Server
 
-[English](README_EN.md) | 中文
+[English](https://github.com/CCCpan/chinese-sensitive-words-mcp/blob/main/README_EN.md) | 中文
 
 > 中文敏感词/违禁词检测 MCP Server，支持小红书、抖音、快手、B站等平台。
 

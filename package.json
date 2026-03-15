@@ -1,17 +1,17 @@
 {
   "name": "chinese-sensitive-words-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP Server for Chinese sensitive/prohibited word detection. Supports Xiaohongshu, Douyin, Kuaishou, Bilibili. 中文敏感词违禁词检测 MCP 服务，支持小红书、抖音、快手、B站。",
   "type": "module",
   "license": "MIT",
   "author": "pancheng",
-  "homepage": "https://github.com/pancheng/chinese-sensitive-words-mcp#readme",
+  "homepage": "https://github.com/CCCpan/chinese-sensitive-words-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pancheng/chinese-sensitive-words-mcp.git"
+    "url": "git+https://github.com/CCCpan/chinese-sensitive-words-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/pancheng/chinese-sensitive-words-mcp/issues"
+    "url": "https://github.com/CCCpan/chinese-sensitive-words-mcp/issues"
   },
   "bin": {
     "chinese-sensitive-words-mcp": "dist/server.js"

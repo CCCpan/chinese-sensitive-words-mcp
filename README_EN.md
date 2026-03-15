@@ -1,6 +1,6 @@
 # Chinese Sensitive Words MCP Server
 
-[中文](README.md) | English
+[中文](https://github.com/CCCpan/chinese-sensitive-words-mcp/blob/main/README.md) | English
 
 > MCP Server for detecting sensitive/prohibited words in Chinese text. Built for social media content compliance on Xiaohongshu (Little Red Book), Douyin (TikTok China), Kuaishou, and Bilibili.
 
